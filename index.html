@@ -3,9 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Android App & Website Developer</title>
 
-<meta name="description" content="Professional Android App and Website Development Services">
+<title>Android App & Website Developer | Vijay Khune</title>
+
+<meta name="description" content="Professional Android App and Website Development using Java, Firebase and modern web technologies.">
+<meta name="keywords" content="Android App Developer, Website Developer, Java Developer, Firebase Developer, Android Apps India">
+<meta name="author" content="Vijay Khune">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Android App & Website Developer">
+<meta property="og:description" content="Professional Android App and Website Development Services">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vijaykhune.github.io/android.app.devloper/">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -19,48 +29,21 @@
 }
 *{margin:0;padding:0;box-sizing:border-box;font-family:Inter,system-ui,sans-serif}
 body{background:#fff;color:var(--dark);line-height:1.6}
-
-/* ---------- layout ---------- */
 .container{max-width:1100px;margin:auto;padding:0 16px}
 section{padding:80px 0}
 
-/* ---------- header ---------- */
+/* HEADER */
 header{
-  position:fixed;
-  top:0;left:0;width:100%;
-  background:#fff;
-  border-bottom:1px solid #e5e7eb;
-  z-index:1000;
+  position:fixed;top:0;left:0;width:100%;
+  background:#fff;border-bottom:1px solid #e5e7eb;z-index:1000;
 }
-nav{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  height:64px;
-}
-.logo{
-  font-size:20px;
-  font-weight:700;
-  color:var(--primary);
-  text-decoration:none;
-}
-.nav-links{
-  display:flex;
-  gap:24px;
-}
-.nav-links a{
-  text-decoration:none;
-  color:var(--dark);
-  font-weight:500;
-}
-.menu-btn{
-  display:none;
-  font-size:22px;
-  background:none;
-  border:none;
-}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:20px;font-weight:700;color:var(--primary);text-decoration:none}
+.nav-links{display:flex;gap:24px}
+.nav-links a{text-decoration:none;color:var(--dark);font-weight:500}
+.menu-btn{display:none;font-size:22px;background:none;border:none}
 
-/* ---------- hero ---------- */
+/* HERO */
 .hero{
   padding-top:120px;
   background:linear-gradient(135deg,#eef2ff,#f8fafc);
@@ -71,31 +54,20 @@ nav{
   gap:40px;
   align-items:center;
 }
-.hero h1{
-  font-size:42px;
-  line-height:1.2;
-}
-.hero p{
-  margin:20px 0;
-  color:var(--gray);
-}
+.hero h1{font-size:42px;line-height:1.2}
+.hero p{margin:20px 0;color:var(--gray)}
 .btn{
-  display:inline-block;
-  padding:14px 28px;
-  background:var(--primary);
-  color:#fff;
-  text-decoration:none;
-  border-radius:var(--radius);
+  display:inline-block;padding:14px 28px;
+  background:var(--primary);color:#fff;
+  text-decoration:none;border-radius:var(--radius);
   font-weight:600;
 }
 .hero-card{
-  background:#fff;
-  padding:32px;
-  border-radius:var(--radius);
+  background:#fff;padding:32px;border-radius:var(--radius);
   box-shadow:0 20px 40px rgba(0,0,0,.08);
 }
 
-/* ---------- services ---------- */
+/* SERVICES */
 .section-title{text-align:center;margin-bottom:50px}
 .section-title h2{font-size:32px}
 .cards{
@@ -104,60 +76,52 @@ nav{
   gap:24px;
 }
 .card{
-  padding:28px;
-  border-radius:var(--radius);
-  background:#fff;
-  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  padding:28px;border-radius:var(--radius);
+  background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
-.card i{
-  font-size:28px;
-  color:var(--primary);
-  margin-bottom:12px;
-}
+.card i{font-size:28px;color:var(--primary);margin-bottom:12px}
 .card h3{margin-bottom:8px}
 
-/* ---------- about ---------- */
-.about{
-  background:var(--light);
-}
+/* ABOUT */
+.about{background:var(--light)}
 .about-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:40px;
-  align-items:center;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:40px;align-items:center;
 }
 .about-box{
-  background:#fff;
-  padding:32px;
-  border-radius:var(--radius);
+  background:#fff;padding:32px;border-radius:var(--radius);
   box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
-/* ---------- contact ---------- */
+/* CONTACT */
 .contact-box{
-  max-width:520px;
-  margin:auto;
-  background:#fff;
-  padding:32px;
-  border-radius:var(--radius);
+  max-width:520px;margin:auto;background:#fff;
+  padding:32px;border-radius:var(--radius);
   box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 .contact-box p{margin-bottom:12px}
 
-/* ---------- footer ---------- */
+/* FOOTER */
 footer{
-  background:#020617;
-  color:#cbd5e1;
-  text-align:center;
-  padding:30px 0;
+  background:#020617;color:#cbd5e1;
+  text-align:center;padding:30px 0;
 }
 
-/* ---------- responsive ---------- */
+/* WHATSAPP FLOAT */
+.wa-float{
+  position:fixed;bottom:20px;right:20px;
+  background:#25D366;color:#fff;
+  width:56px;height:56px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:30px;box-shadow:0 10px 20px rgba(0,0,0,.25);
+  z-index:9999;
+}
+
+/* RESPONSIVE */
 @media(max-width:768px){
   .nav-links{display:none}
   .menu-btn{display:block}
-  .hero-grid,
-  .about-grid{grid-template-columns:1fr}
+  .hero-grid,.about-grid{grid-template-columns:1fr}
   .hero h1{font-size:32px}
 }
 </style>
@@ -234,7 +198,7 @@ footer{
 <h2>About Me</h2>
 <p>
 I am an Android App Developer and Website Builder with real-world experience.
-I focus on clean UI, performance, and business-oriented solutions.
+I focus on clean UI, performance and business-oriented solutions.
 </p>
 </div>
 
@@ -251,15 +215,20 @@ I focus on clean UI, performance, and business-oriented solutions.
 <div class="container">
 <div class="contact-box">
 <h2>Contact</h2>
-<p>📱 WhatsApp: <b>7020647839</b></p>
+<p>📱 WhatsApp: <b>917020647839</b></p>
 <p>📧 Email: <b>vkhune992@gmail.com</b></p>
 </div>
 </div>
 </section>
 
 <footer>
-<p>© 2026 Android App & Website Developer</p>
+<p>© 2026 Vijay Khune – Android App & Website Developer</p>
 </footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917020647839" target="_blank" class="wa-float">
+<i class="fab fa-whatsapp"></i>
+</a>
 
 </body>
 </html>
